@@ -67,6 +67,7 @@
     display: grid;
 
     grid-template-areas:
+        "header header"
         "menu content"
         "menu img2"
         "footer footer";
@@ -76,12 +77,15 @@
     gap: 15px;
     padding: 10px;
 }
-
+.container .header{
+    grid-area: header;
+}
 .container .menu {
     grid-area: menu;
     text-align: left;
     align-self: center;
     padding: 10px;
+    font-size: 10px;
 }
 
 .container .content {
@@ -100,16 +104,19 @@
 
 .container #test,
 .container #test2 {
-    width: 100%;
+    width: 25%;
     max-width: 300px;
     height: auto;
     object-fit: contain;
+    border: solid 10px #BE9B7B
 }
+
 
 .container .footer {
     grid-area: footer;
     text-align: center;
     padding: 10px;
+    font-size: larger;
 }
 
 /* SECOND PAGE ONLY */
@@ -127,7 +134,7 @@
     gap: 10px;
     padding: 5px;
 }
-
+.container2 #BUNBUN
 .container2 div {
     padding: 10px;
 }
