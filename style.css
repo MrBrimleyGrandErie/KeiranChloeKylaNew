@@ -32,26 +32,95 @@
 
 
 
+
+
 /*-----------------------------------------------------------------------------------------------------*/
 /*Chloe*/
 /*Hai :3*/
-  
+
 @font-face {
     font-family: 'Kranky';
-    src: url('Kranky.ttf') format('truetype');
+    src: url('Kraky-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+
+.container h1,
+.container p,
+.container li,
+.container a {
+    font-family: 'Kranky', cursive;
+}
+
+.container2 h1,
+.container2 h3,
+.container2 p,
+.container2 li,
+.container2 a {
+    font-family: 'Kranky', cursive;
+}
+
+/* FIRST PAGE ONLY */
+.container {
+    display: grid;
+
+    grid-template-areas:
+        "menu content"
+        "menu img2"
+        "footer footer";
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+    padding: 10px;
+}
+
+.container .menu {
+    grid-area: menu;
+    text-align: left;
+    align-self: center;
+    padding: 10px;
+}
+
+.container .content {
+    grid-area: content;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.container .img2 {
+    grid-area: img2;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.container #test,
+.container #test2 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+}
+
+.container .footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 10px;
+}
+
+/* SECOND PAGE ONLY */
 .container2 {
     display: grid;
 
     grid-template-areas:
-        "header header"
-        "menu content"
-        "Yuriii content"
-        "footer footer";
+        "header2 header2"
+        "menu2 content2"
+        "Yuriii content2"
+        "footer2 footer2";
 
     grid-template-columns: 1fr 3fr;
 
@@ -64,12 +133,12 @@
 }
 
 .container2 div.header2 {
-    grid-area: header;
+    grid-area: header2;
     text-align: center;
 }
 
 .container2 div.menu2 {
-    grid-area: menu;
+    grid-area: menu2;
     text-align: center;
 }
 
@@ -79,60 +148,26 @@
 }
 
 .container2 div.content2 {
-    grid-area: content;
+    grid-area: content2;
     text-align: left;
 }
 
 .container2 div.footer2 {
-    grid-area: footer;
+    grid-area: footer2;
     text-align: center;
 }
 
-#test, #test2 {
+/* Images on both pages, with separate selectors */
+.container2 #test,
+.container2 #test2 {
     width: 100%;
     max-width: 300px;
     height: auto;
     padding: 5px;
 }
 
-/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
 
-.container2 {
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "menu content"
-    "Yuriii"
-    "footer footer";
-  grid-template-columns: 1fr 3fr;
-  gap: 3px;
-  padding: 5px;
-}
-.container2 div {
-  padding: 10px;
-}
-.container2 div.header2 {
-  grid-area: header;
-  text-align: center;
-}
-.container2 div.Yuriii {
-  grid-area: Yuriii;
-  text-align: left;
-}
-.container2 div.menu2 {
-  grid-area: menu;
-  text-align: left;
-}
-.container2 div.content2 {
-  grid-area: content;
-}
-.container2 div.footer2 {
-  grid-area: footer;
-  text-align: center;  
-}
-
-
-/*------------------------------------------------------------------------------------------------------------*/
 /*Kyla*/
 /*what am i doing*/
 
@@ -183,4 +218,9 @@
 
 .container1 div.content {
     grid-area: content;
+}
+/* Kranky font for Kyla's page only */
+.container1,
+.myHeader {
+    font-family: 'Kranky', cursive;
 }
