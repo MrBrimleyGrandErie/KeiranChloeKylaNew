@@ -177,7 +177,18 @@
     border-bottom-width: 5px;
     
 }
-
+#idk{
+    padding: 1px;
+    border-style: solid;
+    border-color: #A4866F;
+    border-width: 20px;
+}
+#comment{
+    text-align: right;
+}
+.scissorpun{
+    font-size: larger;
+}
 #yp{
   text-decoration: underline;
 }
@@ -197,7 +208,6 @@
 }
 
 .container1 div {
-    background-color: white;
     padding: 10px;
 }
 
@@ -207,17 +217,17 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-    padding: 10px;
 }
 
 .container1 div.menu {
     text-align: left;
     grid-area: menu;
+    font-size: larger;
 }
 
 .container1 div.content {
     grid-area: content;
+    font-size: larger;
 }
 /* Kranky font for Kyla's page only */
 .container1,
