@@ -47,14 +47,14 @@
 }
 
 
-.container h1,
+
 .container p,
 .container li,
 .container a {
     font-family: 'Kranky', cursive;
 }
 
-.container2 h1,
+
 .container2 h3,
 .container2 p,
 .container2 li,
@@ -79,6 +79,7 @@
 }
 .container .header{
     grid-area: header;
+    font-size: 35px;
 }
 .container .menu {
     grid-area: menu;
@@ -86,6 +87,7 @@
     align-self: center;
     padding: 10px;
     font-size: 10px;
+    
 }
 
 .container .content {
@@ -94,21 +96,24 @@
     justify-content: flex-end;
     padding: 10px;
 }
-
-.container .img2 {
+#ADecentlySizedFrog{
+    font-family: papyrus; 
+    font-size: 50px;
+}
+.container .ThreeHandedMr.Puzzles {
     grid-area: img2;
     display: flex;
     justify-content: flex-end;
     padding: 10px;
 }
 
-.container #test,
-.container #test2 {
-    width: 25%;
+.container #Yaoiii,
+.container #LavenderHairedTimelessCow {
+    width: 40%;
     max-width: 300px;
     height: auto;
     object-fit: contain;
-    border: solid 10px #BE9B7B
+    text-align: right;
 }
 
 
@@ -118,7 +123,7 @@
     padding: 10px;
     font-size: larger;
 }
-
+/*-------------------------------------------------------------------------*/
 /* SECOND PAGE ONLY */
 .container2 {
     display: grid;
