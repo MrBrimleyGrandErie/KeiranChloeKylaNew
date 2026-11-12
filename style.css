@@ -234,9 +234,6 @@
     justify-content: flex-end;
     align-items: center;
 }
-.container1P2 div.imageP2 {
-    text-align: right;
-}
 .container1 div.menu {
     text-align: left;
     grid-area: menu;
@@ -247,7 +244,24 @@
     grid-area: content;
     font-size: larger;
 }
-/* Kranky font for Kyla's page only */
+
+/* Kyla Page 2 Layout: Text Left, Image Right */
+.container1P2 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    align-items: center;
+}
+
+.textP2 {
+    text-align: left;
+}
+
+.container1P2 div.imageP2 {
+    text-align: right;
+}
+
+/* Papyrus font styling for Kyla's pages */
 .container1,
 .myHeader,
 .scissorpun {
@@ -258,4 +272,3 @@
 .scissorpunP2 {
     font-family: 'Papyrus';
 }
-
