@@ -200,6 +200,9 @@
 .scissorpun{
     font-size: 30px;
 }
+.imageP2{
+    text-align: right;
+}
 #yp{
   text-decoration: underline;
 }
@@ -227,7 +230,6 @@
 
 .container1 div.image {
     grid-area: image;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -247,7 +249,8 @@
 }
 /* Kranky font for Kyla's page only */
 .container1,
-.myHeader {
+.myHeader,
+.scissorpun {
     font-family: 'Papyrus';
 }
 .container1P2,
