@@ -134,7 +134,8 @@
     grid-area: img2;
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
+    
+    text-align:right;
 }
 
 .container #Yaoiii,
@@ -159,53 +160,65 @@
     display: grid;
 
     grid-template-areas:
-        "header2 header2"
-        "menu2 content2"
-        "Yuriii content2"
-        "footer2 footer2";
+        
+        "menu2 Whyyy"
+        "BUNBUN header2"
+        "Yuriii footer2";
 
     grid-template-columns: 1fr 3fr;
 
     gap: 10px;
     padding: 5px;
 }
-.container2 #BUNBUN
-.container2 div {
-    padding: 10px;
+.container2 div.Whyyy{
+font-family: papyrus;
+grid-area: Whyyy;
+text-align: left;
+font-size: 35px;
 }
-
 .container2 div.header2 {
     grid-area: header2;
     text-align: center;
+    font-size: 35px;
 }
 
 .container2 div.menu2 {
     grid-area: menu2;
-    text-align: center;
+    text-align: left;
 }
 
 .container2 div.Yuriii {
     grid-area: Yuriii;
-    text-align: center;
-}
-
-.container2 div.content2 {
-    grid-area: content2;
     text-align: left;
 }
 
+.container2 div.BUNBUN {
+    grid-area: BUNBUN;
+    text-align: left;
+}
+#WHATSPELLDIDYOUDRAWCOCO{
+    font-size:larger;
+    text-align:center;
+}
 .container2 div.footer2 {
     grid-area: footer2;
     text-align: center;
 }
-
-/* Images on both pages, with separate selectors */
-.container2 #test,
-.container2 #test2 {
-    width: 100%;
+.container2 #Iluvbunbun{
+   width: 55%;
     max-width: 300px;
     height: auto;
     padding: 5px;
+    text-align: left; 
+}
+/* Images on both pages, with separate selectors */
+.container2 #PeanutbutterHour,
+.container2 #test55 {
+    width: 45%;
+    max-width: 300px;
+    height: auto;
+    padding: 5px;
+    text-align: left;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
