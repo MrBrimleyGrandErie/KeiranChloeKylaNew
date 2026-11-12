@@ -189,6 +189,9 @@
     border-bottom-width: 5px;
     
 }
+.textP2{
+    font-size: larger;
+}
 .myHeaderP2{
     border-bottom-style: solid;
     border-color: #000000;
@@ -199,6 +202,9 @@
 }
 .scissorpun{
     font-size: 30px;
+}
+.bum{
+    font-size: larger;
 }
 .imageP2{
     text-align: right;
