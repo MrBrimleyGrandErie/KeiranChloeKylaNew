@@ -1,39 +1,69 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /*Keiran*/
-.myButtons{ width:175px; height: 69px; background-color: #000000 ; color:#936b13; margin-left: 95px; margin-right: 95px;}
+
+
+.navButtons{ width:175px; height: 745px; 
+  background-color: #a4866f ;
+  color:#000000;
+  margin-left: 55px;
+  margin-right: 55px;
+  padding: 15px; 
+  border-radius: 5px;
+  border-top: 6px solid #515151;
+  border-left: 6px solid #737373;
+  border-right: none;
+  border-bottom: none;
+
+}
 
 .navbar {
-
-  gap: 10px; 
-  background-color: #b7902e;
-  padding: 10px;
+  background-color: #fac594;
+  padding: 25px;
+  
 }
 
-.nav-button {
- 
-  padding: 10px 20px;
-  background-color: #966d13;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  font-family: sans-serif;
-}
+
+
 
 .nav-button:hover {
-  background-color: #846715; 
+  background-color: #000000; 
 }
 
 
+.p {
+  font-family:"Cochin";
+}
+.container div{
+  display: grid;
+  grid-template-areas:
+    "head"
+    "tent"
+    "feet";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(255, 255, 255);
+}
+.holder div {
+  background-color: white;
 
-
-
-
-
-
-
-
-
-
-
+}
+#bdgkjs{
+  margin: 0px;
+}
+.holder div.head {
+  grid-area: header ;
+  text-align: center;
+}
+.holder div.men {
+  grid-area: menu;
+}
+.holder div.tent {
+  grid-area: content;
+}
+.holder div.feet {
+  grid-area: footer;
+  text-align: center;  
+}
 /*-----------------------------------------------------------------------------------------------------*/
 /*Chloe*/
 /*Hai :3*/
@@ -202,6 +232,9 @@ font-size: 35px;
     border-bottom-width: 5px;
     
 }
+.textP2{
+    font-size: larger;
+}
 .myHeaderP2{
     border-bottom-style: solid;
     border-color: #000000;
@@ -212,6 +245,12 @@ font-size: 35px;
 }
 .scissorpun{
     font-size: 30px;
+}
+.bum{
+    font-size: larger;
+}
+.imageP2{
+    text-align: right;
 }
 #yp{
   text-decoration: underline;
@@ -240,13 +279,9 @@ font-size: 35px;
 
 .container1 div.image {
     grid-area: image;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-.container1P2 div.imageP2 {
-    text-align: right;
 }
 .container1 div.menu {
     text-align: left;
@@ -258,9 +293,27 @@ font-size: 35px;
     grid-area: content;
     font-size: larger;
 }
-/* Kranky font for Kyla's page only */
+
+/* Kyla Page 2 Layout: Text Left, Image Right */
+.container1P2 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    align-items: center;
+}
+
+.textP2 {
+    text-align: left;
+}
+
+.container1P2 div.imageP2 {
+    text-align: right;
+}
+
+/* Papyrus font styling for Kyla's pages */
 .container1,
-.myHeader {
+.myHeader,
+.scissorpun {
     font-family: 'Papyrus';
 }
 .container1P2,
@@ -268,4 +321,3 @@ font-size: 35px;
 .scissorpunP2 {
     font-family: 'Papyrus';
 }
-
