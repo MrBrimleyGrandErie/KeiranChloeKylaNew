@@ -269,12 +269,10 @@ font-size: 35px;
     grid-template-columns: 1fr 240px;
 
     gap: 10px;
-    background-color: white;
-    padding: 5px;
 }
 
 .container1 div {
-    padding: 10px;
+    padding: 5px;
 }
 
 .container1 div.image {
@@ -292,6 +290,8 @@ font-size: 35px;
 .container1 div.content {
     grid-area: content;
     font-size: larger;
+    width: 500px;
+    height: 500px;
 }
 
 /* Kyla Page 2 Layout: Text Left, Image Right */
