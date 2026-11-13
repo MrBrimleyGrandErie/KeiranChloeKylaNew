@@ -15,16 +15,11 @@
   border-bottom: none;
 
 }
-
 .navbar {
   background-color: #fac594;
   padding: 25px;
   
 }
-
-
-
-
 .nav-button:hover {
   background-color: #000000; 
 }
@@ -78,9 +73,9 @@
 
 
 
-.container p,
-.container li,
-.container a {
+.MyDarlingOrufrey p,
+.MyDarlingOrufrey li,
+.MyDarlingOrufrey a {
     font-family: 'Kranky', cursive;
 }
 
@@ -93,12 +88,12 @@
 }
 
 /* FIRST PAGE ONLY */
-.container {
+.MyDarlingOrufrey {
     display: grid;
 
     grid-template-areas:
         "header header"
-        "menu content"
+        "MonykasCommemorativePen Yuriii"
         "menu img2"
         "footer footer";
 
@@ -107,12 +102,12 @@
     gap: 15px;
     padding: 10px;
 }
-.container .header{
+.MyDarlingOrufrey .header{
     grid-area: header;
     font-size: 35px;
 }
-.container .menu {
-    grid-area: menu;
+.MyDarlingOrufrey .MonykasCommemorativePen {
+    grid-area: MonykasCommemorativePen;
     text-align: left;
     align-self: center;
     padding: 10px;
@@ -120,8 +115,8 @@
     
 }
 
-.container .content {
-    grid-area: content;
+.MyDarlingOrufrey .Yuriii {
+    grid-area: Yuriii;
     display: flex;
     justify-content: flex-end;
     padding: 10px;
@@ -130,7 +125,7 @@
     font-family: papyrus; 
     font-size: 50px;
 }
-.container .ThreeHandedMr.Puzzles {
+.MyDarlingOrufrey .ThreeHandedMr.Puzzles {
     grid-area: img2;
     display: flex;
     justify-content: flex-end;
@@ -138,8 +133,8 @@
     text-align:right;
 }
 
-.container #Yaoiii,
-.container #LavenderHairedTimelessCow {
+.MyDarlingOrufrey #Yaoiii,
+.MyDarlingOrufrey #LavenderHairedTimelessCow {
     width: 40%;
     max-width: 300px;
     height: auto;
@@ -148,7 +143,7 @@
 }
 
 
-.container .footer {
+.MyDarlingOrufrey .footer {
     grid-area: footer;
     text-align: center;
     padding: 10px;
