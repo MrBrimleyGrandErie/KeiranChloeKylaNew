@@ -15,16 +15,11 @@
   border-bottom: none;
 
 }
-
 .navbar {
   background-color: #fac594;
   padding: 25px;
   
 }
-
-
-
-
 .nav-button:hover {
   background-color: #000000; 
 }
