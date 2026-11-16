@@ -51,6 +51,7 @@
 }
 .holder div.men {
   grid-area: menu;
+  font-size: large;
 }
 .holder div.tent {
   grid-area: content;
